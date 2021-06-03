@@ -1,0 +1,333 @@
+body,
+html {
+  box-sizing: border-box;
+  /* https://images6.alphacoders.com/423/423653.jpg */
+  /* https://i.redd.it/emjlbj3c0nq31.jpg */
+  /* background: url(https://images6.alphacoders.com/423/423653.jpg) no-repeat center center; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* background-color: #434BE7; */
+  width: 100%;
+  height: 100%;
+  /*https://i.redd.it/emjlbj3c0nq31.jpg*/
+}
+
+.prenzy-nav
+{
+	/*position: sticky;*/
+	height: 130;
+	background-color: #232324;
+	padding-top: 15px;
+	padding-bottom: 15px;
+    /*margin:40px 60px;*/
+}
+
+.image
+{
+	display: inline-block;
+	margin: 0;
+	display: flex;
+}
+
+.test
+{
+	display: inline-block;
+}
+
+.main-nav
+{
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a
+{
+	text-decoration: none;
+	color: white;
+}
+
+
+.nav-list
+{
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 20px;
+	margin-right: 20px;
+	align-self: center;
+	padding: 20px;
+}
+
+a:hover
+{
+	text-decoration: none;
+	color: #bfbaba;
+}
+
+.register
+{
+	margin-left: auto;
+	margin-right: 50px;
+}
+
+.prenzy-ovo
+{
+  height: 100%;
+  display: flex;
+  background: url(https://i.redd.it/emjlbj3c0nq31.jpg) no-repeat center center;
+  justify-content: center;
+}
+
+.darker
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: linear-gradient(45deg, black, transparent);
+}
+
+.slogan
+{
+  /* display: flex; */
+  /* align-self: center; */
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4em;
+  text-align: center;
+  /* background: black; */
+}
+
+h1
+{
+	/*text-align: center;*/
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.sticky
+{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.info
+{
+  color: white;
+  padding: 50px;
+  /* display: flex; */
+  background: #434BE7;
+}
+
+.about
+{
+  display: flex;
+}
+
+.sobre
+{
+  padding: 30px;
+}
+
+img
+{
+  width: inherit;
+}
+
+.services
+{
+  padding: 30px;
+  background: #434BE7;
+}
+
+h2
+{
+	line-height: 1.5;
+	font-size: 1em;
+}
+
+.list
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+  /* display: flex; */
+  list-style: none;
+  margin: 0;
+  padding: 20px 0px;
+}
+
+.box
+{
+  background-color: white;
+  margin: 15px;
+  border-radius:30px;
+  border:2px solid #bbb;
+  padding: 30px;
+
+}
+
+.no-mar-left
+{
+  margin-left: 0;
+}
+
+.no-mar-right
+{
+  margin-right: 0;
+}
+
+h3
+{
+  font-size: 2.5em;
+  color: black;
+  padding-top: 20px;
+}
+
+.prenzy-form
+{
+  text-align: center;
+  padding: 50px;
+}
+
+@media only screen and (max-width: 1024px)
+{
+  .prenzy-ovo
+  {
+    height: 80%;
+    display: flex;
+  }
+
+  .slogan
+  {
+    width: 70%;
+  }
+
+  .list
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .box
+  {
+    padding: 25px;
+  }
+}
+
+@media only screen and (max-width: 750px)
+{
+  .prenzy-ovo
+  {
+    height: 80%;
+    display: flex;
+  }
+
+  .info
+  {
+    padding: 30px;
+  }
+
+  .about
+  {
+    display: grid;
+  }
+
+  .sobre
+  {
+    padding: 0px;
+  }
+
+  .services
+  {
+    margin-top: 30px;
+    padding: 0px;
+  }
+
+  .list
+  {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .box
+  {
+    margin: 0px 0px 20px 0px;
+    background-color: white;
+    /* margin: 15px; */
+    border-radius:30px;
+    border:2px solid #bbb;
+    padding: 20px;
+
+  }
+
+  h3
+  {
+    padding-top: 10px;
+  }
+
+  .prenzy-form
+  {
+    padding: 30px;
+  }
+
+}
+
+/* .new-list
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  margin: 0;
+  padding: 20px 0px;
+} */
+
+/* .box:hover
+{
+  background-color: #eaeaea;
+  transform: scale(1.05);
+} */
+
+
+
+h4
+{
+  color: black;
+  font-size: 1em;
+}
+
+.box-content > img {
+    width: 100%;
+}
+
+.mark
+{
+  background: transparent;
+  padding: 10px;
+}
+
+.my-button
+{
+  background-color: white;
+  color: black;
+}
+
+footer
+{
+	/*display: flex;*/
+	background: #232324;
+}
+
+.bottom > img
+{
+  width: auto;
+}
+
+.bottom
+{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
